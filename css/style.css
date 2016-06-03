@@ -1,0 +1,188 @@
+
+/*custom ids*/
+ 
+#contact-page{
+	display: flex;
+    flex-flow: wrap;
+}
+
+#contact-edit{
+	width:70%;
+	padding:10px;
+}
+
+#contact-list{
+	width:25%;
+}
+
+#info-sheet{
+	width:45%;
+	display:inline-block;
+}
+
+#image-sheet{
+	width:45%;
+	display:inline-block;
+	text-align:center;
+	float:right;
+	padding-top:10px;
+}
+
+#action-panel{
+	padding:10px;
+	text-align:right;
+}
+
+
+/*csutom classes*/
+
+.image-prev{
+	height:180px;
+	width:150px;
+	background:rgb(240,240,200);
+	margin:auto;
+}
+
+.input-file{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.contact{
+	border-bottom:1px solid rgb(211,212,211);
+	padding:10px;
+	font-family: 'Segoe UI';
+	font-size:18px;
+	text-align:right;
+}
+
+.header{
+	text-align:left;
+	padding:20px;
+	font-family: 'Segoe UI';
+	font-size:50px;
+}
+
+.footer {
+	text-align:center;
+	padding:20px;
+	font-family: 'Segoe UI';
+	font-size:25px;
+}
+
+
+.heading{
+	padding:10px;
+	font-size:30px;
+	text-align:left;
+	font-weight:bold;
+}
+
+
+
+/*properties classes*/
+
+.top-line{
+	border-top:1px solid rgb(211,212,211);
+}
+
+.btm-line{
+	border-bottom:1px solid rgb(211,212,211);	
+}
+
+.left-line{
+	border-left:1px solid rgb(211,212,211);	
+}
+
+.right-line{
+	border-right:1px solid rgb(211,212,211);	
+}
+
+
+.agency-font{
+	font-family: Agency FB;
+	src: url("http://uncutbeatz.com/clear/fonts/AGENCYR.TTF.ttf") format("truetype");
+	font-style:normal;
+}
+
+.def-font{
+	font-family: 'Segoe UI';
+}
+
+.bold-font{
+	font-weight:bold;
+}
+
+.white-font{
+	color:white;
+}
+
+.black-font{
+	color:black;
+}
+
+.def-back-col{
+	background:rgb(244,107,117);
+}
+
+
+
+
+/*elements' styles*/
+
+body{
+	padding:0px;
+	text-align:center;
+	margin:0px;
+	min-width:900px;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="date"]{
+	font-family: 'Segoe UI';
+	font-size:15px;
+	border:1px solid rgb(211,212,211);
+	border-radius:4px;
+	padding:5px;
+	width:100%;
+}
+
+input[type="submit"],input[type="file"],.input-label{
+	background:rgb(41,125,255);
+	font-family:'Segoe UI';
+	color:white;
+	border:0;
+	border-radius:4px;
+	padding:7px;
+	min-width:80px;
+	box-shadow:0 0 5px rgb(200,200,200);
+	cursor:pointer;
+}
+
+input[type="button"]{
+	background:white;
+	border:1px solid rgb(87,87,87);
+	border-radius:4px;
+	box-shadow:0 0 5px rgb(200,200,200);
+	padding:7px;
+	min-width:40px;
+	font-family:'Segoe UI';
+	font-size:10px;
+	cursor:pointer;
+}
+
+
+label{
+	color:black;
+	font-family: 'Segoe UI';
+	font-size:15px;
+}
+
+td{
+	text-align:left;
+	padding:5px 0 5px 0;
+}
+
